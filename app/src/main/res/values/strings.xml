@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TheQuizApp</string>
+    <string name="quiz_app">Quiz App</string>
+    <string name="welcome_here">Welcome Here!</string>
+    <string name="please_enter_your_name">Please enter your name</string>
+    <string name="e_g_eren">e.g. Eren</string>
+    <string name="e_g_Eren">e.g. Eren</string>
+</resources>
