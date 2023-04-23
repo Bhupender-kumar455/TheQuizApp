@@ -62,6 +62,7 @@
                 style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox">
 
                 <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/etName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -71,16 +72,16 @@
 
             </com.google.android.material.textfield.TextInputLayout>
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Next"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            android:background="@color/buttonBackgroundcolor"
-
-            />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnStart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@color/buttonBackgroundcolor"
+                android:text="@string/next"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
         </LinearLayout>
 
     </com.google.android.material.card.MaterialCardView>
