@@ -68,7 +68,8 @@
                     android:gravity="center"
                     android:hint="@string/e_g_Eren"
                     android:inputType="textCapWords"
-                    android:textColorHint="@color/white" />
+                    android:textColorHint="@color/white"
+                    />
 
             </com.google.android.material.textfield.TextInputLayout>
 

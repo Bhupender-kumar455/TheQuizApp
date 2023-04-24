@@ -17,13 +17,12 @@ class MainActivity : ComponentActivity() {
         val etName = findViewById<EditText>(R.id.etName)
 
         btnStart.setOnClickListener {
-            if(etName.text.isEmpty()){
+            if(etName.text.toString().isEmpty()){
                 Toast.makeText(this,"Enter your name please",Toast.LENGTH_LONG).show()
             }
             else{
                 val intent = Intent(this,QuizQuestionActivity::class.java)
                 startActivity(intent)
-                finish()
             }
         }
 
