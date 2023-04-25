@@ -47,6 +47,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+
                 android:max="10"
                 android:indeterminate="false"
                 style="?android:attr/progressBarStyleHorizontal"
@@ -60,6 +61,7 @@
                 android:gravity="center"
                 android:padding="15dp"
                 android:text="@string/_0_9"
+                android:textColor="@color/white"
                 android:textSize="14sp"/>
         </LinearLayout>
 
@@ -116,9 +118,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/check"
+            android:textColor="@color/white"
             android:padding="15dp"
             android:layout_marginTop="20dp"
-            android:background="@color/black"
              />
     </LinearLayout>
 </ScrollView>
