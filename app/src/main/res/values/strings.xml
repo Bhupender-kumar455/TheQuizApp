@@ -9,4 +9,10 @@
     <string name="quiz_image">Quiz Image</string>
     <string name="check">Check!</string>
     <string name="_0_9">0/9</string>
+    <string name="your_score_is_0_out_of_9">your score is 0 out of 9</string>
+    <string name="eren">eren</string>
+    <string name="hey_congratulations">Hey, congratulations!</string>
+    <string name="result">RESULT</string>
+    <string name="finish">FINISH</string>
+    <string name="trophyimage">trophyImage</string>
 </resources>

@@ -1,6 +1,10 @@
 package com.example.thequizapp
 
 object Constant {
+
+    const val USER_NAME:String = "user_name"
+    const val TOTAL_QUESTION:String = "total_question"
+    const val CORRECT_ANSWER:String = "correct_answer"
     fun getQuestion():ArrayList<Question>{
             val questionList = ArrayList<Question>()
             val que1 = Question(1,"What Country does this belongs to ?",R.drawable.ic_image_bhutan
